@@ -43,7 +43,7 @@ body {
 /* Header Styles */
 
 .banner-container {
-    border: 2px solid red;
+    
     position: relative;
     margin: 3% 10%;
     display: flex;
@@ -57,7 +57,7 @@ body {
 
 .banner-left {
     width: 40%;
-    border: 2px solid blue;
+    
 }
 
 .banner-title {
@@ -78,7 +78,7 @@ body {
 
 .banner-right {
     width: 50%;
-    border: 2px solid green;
+    
     text-align: center;
     margin-right: 7%;
 }
@@ -88,28 +88,27 @@ body {
 
 .today {
     margin: 0 15%;
-    border: 2px solid blue;
+    
     display: flex;
     flex-direction: column;
 }
 
 .today-part-1 {
-    border: 2px solid steelblue;
+    
     text-align: center;
     margin: 0 10% 5%;
 }
 
 .today-part-2 {
-    border: 2px solid green;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(47%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
     grid-gap: 1rem;
     text-align: center;
     margin-bottom: 4%;
 }
 
 .today-card {
-    border: 2px solid saddlebrown;
+    
     border-radius: 4%;
     background: rgb(250, 250, 250, 0.9);
     padding: 1% 0;
@@ -124,7 +123,7 @@ body {
 }
 
 .today-part-3 {
-    border: 2px solid red;
+    
     text-align: center;
 }
 
@@ -135,7 +134,7 @@ body {
     font-size: 1.125rem;
     margin: 1% 0;
     text-align: center;
-    border: 2px solid green;
+    
 }
 
 .today-part-3 hr {
@@ -150,14 +149,14 @@ body {
 /* Plan Section */
 
 .plan {
-    border: 2px solid red;
+    
     display: flex;
     flex-direction: column;
     margin: 3% 10%;
 }
 
 .plan-upper {
-    border: 2px solid blue;
+    
     text-align: center;
     margin: 0 10% 5%;
 }
@@ -167,11 +166,11 @@ body {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 5%;
-    border: 2px solid red;
+    
 }
 
 .plan-card {
-    border: 2px solid green;
+    
     padding: 10% 5%;
     border-radius: 3%;
 }
@@ -208,14 +207,14 @@ body {
 /* Compaign Section */
 
 .compaign {
-    border: 2px solid steelblue;
+    
     display: flex;
     flex-direction: column;
     margin: 3% 10%;
 }
 
 .compaign-part {
-    border: 2px solid blue;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -228,14 +227,14 @@ body {
 
 .compaign-info {
     width: 48%;
-    border: 2px solid green;
+    
     text-align: left;
 }
 
 .compaign-img-container {
     width: 50%;
     text-align: left;
-    border: 2px solid red;
+    
 }
 
 .info-2 {
@@ -253,7 +252,6 @@ body {
 /* Update Section */
 
 .update {
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,7 +259,6 @@ body {
 }
 
 .update-upper {
-    border: 2px solid green;
     text-align: center;
     margin: 0 30%;
 }
@@ -279,7 +276,6 @@ body {
 }
 
 .update-lower {
-    border: 2px solid blue;
     display: flex;
     background: rgb(255, 244, 214);
     padding: 5% 20%;

@@ -47,6 +47,12 @@
         width: 100%;
     }
 
+    /* Today Section */
+
+    .today-part-2 {
+        grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    }
+    
     /* Compaign Section */
 
     .compaign-title {
