@@ -215,7 +215,12 @@ body {
     border: 2px solid blue;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 5%;
+}
+
+.compaign-part-2 {
+    margin-bottom: 0;
 }
 
 .compaign-info {
