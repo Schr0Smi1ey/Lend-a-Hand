@@ -65,9 +65,11 @@ body {
     font-weight: 700;
     margin-bottom: 5%;
 }
+
 .help {
     color: red;
 }
+
 .banner-subtitle {
     font-family: Poppins;
     font-size: 1.125rem;

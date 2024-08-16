@@ -1,0 +1,72 @@
+@media screen and (min-width: 577px) and (max-width: 976px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        margin-bottom: 1%;
+    }
+
+    .subtitle {
+        font-size: 1.125rem;
+    }    
+
+    /* Banner Section */
+    .banner-container {
+        margin: 1.5% 5%;
+        background-size: 62%;
+        align-items: end;
+    }
+
+    .banner-left {
+        width: 50%;
+    }
+    
+    .banner-title {
+        font-size: 3.125rem;
+        margin-bottom: 3%;
+    }
+
+    .banner-subtitle {
+        width: 85%;
+        font-size: 1.125rem;
+        border: 2px solid red;
+        margin-bottom: 4%;
+    }
+
+    .banner-right {
+        width: 50%;
+        border: 2px solid green;
+        text-align: center;
+        margin-right: 7%;
+    }
+    
+    .banner-right img {
+        width: 100%;
+    }
+
+    /* Compaign Section */
+
+    .compaign-title {
+        font-size: 2rem;
+    }
+    .compaign-img-container img {
+        width: 100%;
+    }
+
+    .compaign br {
+        display: none;
+    }
+
+    .info-2 {
+        margin-right: 0;
+    }
+
+    /* Update Section */
+
+    .update-upper {
+        margin: 0 13%;
+    }
+}
