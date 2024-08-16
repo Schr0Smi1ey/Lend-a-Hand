@@ -264,7 +264,6 @@ body {
 }
 
 .update-lower input {
-    width: 100%;
     display: block;
     padding-left: 5%;
     border: none;
@@ -277,13 +276,13 @@ body {
 
 .update-lower {
     display: flex;
+    justify-content: center;
     background: rgb(255, 244, 214);
     padding: 5% 20%;
     margin-top: 2%;
 }
 
 .btn-update {
-    /* width: 100%; */
     border-radius: 0px 5% 5% 0;
     color: rgb(255, 255, 255);
     font-size: 1rem;
