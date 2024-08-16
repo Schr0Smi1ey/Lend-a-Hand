@@ -25,6 +25,7 @@
 
     .banner-left {
         width: 100%;
+        text-align: center;
     }
 
     .banner-title {
@@ -60,7 +61,6 @@
     }
     
     .today-part-2 {
-        grid-template-columns: repeat(2,1fr);
         margin: 1% 1%;
     }
 
@@ -71,6 +71,11 @@
 
     .today-part-3 {
         margin: 1% 1%;
+    }
+
+    .today-part-3 input {
+        width: 100%;
+        font-size: 1rem;
     }
 
     /* Plan Section Styles */
@@ -102,6 +107,7 @@
     .compaign-part {
         flex-direction: column;
         margin-bottom: 2%;
+        margin: 0 1% 2%;
     }
 
     .compaign-part-2 {
@@ -111,11 +117,62 @@
     .compaign-info {
         width: 100%;
         text-align: center;
-        margin-bottom: 2%;
+        
     }
 
     .compaign-img-container {
         width: 100%;
         text-align: center;
+        margin-top: 1%;
+    }
+
+    .compaign-img-container img {
+        width: 100%;
+    }
+
+    /* Update Section */
+
+    .update {
+        margin: 2% 2%;
+    }
+
+    .update-upper {
+        margin: 0 1% 2%;
+    }
+
+    .update-lower {
+        width: 100%;
+        padding: 5% 10%;
+        margin-top: 2%;
+    }
+
+    .update-lower input {
+        padding-left: 5%;
+        border-radius: 5% 0 0 5%;
+        background: rgb(217, 217, 217);
+        color: rgb(170, 159, 159);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .btn-update {
+        border-radius: 0px 5% 5% 0;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        font-weight: 600;
+        border: none;
+    }
+
+    /* Footer */
+
+    .footer-title {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .footer-subtitle {
+        color: rgb(217, 219, 225);
+        font-size: 0.875rem;
+        letter-spacing: 0.3px;
     }
 }
