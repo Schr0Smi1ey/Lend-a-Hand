@@ -93,4 +93,29 @@
         padding: 5% 3%;
     }
 
+    /* Compaign Section */
+
+    .compaign {
+        margin: 2% 2%;
+    }
+
+    .compaign-part {
+        flex-direction: column;
+        margin-bottom: 2%;
+    }
+
+    .compaign-part-2 {
+        flex-direction: column-reverse;
+    }
+
+    .compaign-info {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2%;
+    }
+
+    .compaign-img-container {
+        width: 100%;
+        text-align: center;
+    }
 }

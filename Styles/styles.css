@@ -34,6 +34,7 @@ body {
 }
 
 .subtitle {
+    color: rgb(112, 112, 112);;
     font-family: Poppins;
     font-size: 1.125rem;
 }
@@ -199,4 +200,44 @@ body {
 
 .plan-card img {
     margin-bottom: 2%;
+}
+
+/* Compaign Section */
+
+.compaign {
+    border: 2px solid steelblue;
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10%;
+}
+
+.compaign-part {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.compaign-info {
+    width: 48%;
+    border: 2px solid green;
+    text-align: left;
+}
+
+.compaign-img-container {
+    width: 50%;
+    text-align: left;
+    border: 2px solid red;
+}
+
+.info-2 {
+    margin-right: 2%;
+}
+
+.compaign-subtitle {
+    margin: 4% 0;
+}
+
+.btn-compaign {
+    padding: 2% 2.5%;
 }
