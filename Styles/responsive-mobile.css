@@ -16,7 +16,7 @@
     /* Banner Section */
 
     .banner-container {
-        margin: 1% 2%;
+        margin: 1% 2% 10%;
         flex-direction: column;
         background-size:150%;
         background-repeat: no-repeat;
@@ -26,6 +26,7 @@
     .banner-left {
         width: 100%;
         text-align: center;
+        margin-bottom: 5%;
     }
 
     .banner-title {
@@ -41,7 +42,6 @@
 
     .banner-right {
         width: 100%;
-        border: 2px solid green;
         text-align: center;
         margin-right: 0;
     }
@@ -53,7 +53,7 @@
     /* Today Section */
 
     .today {
-        margin: 2% 2%;
+        margin: 1% 2% 10%;
     }
 
     .today-part-1 {
@@ -77,12 +77,18 @@
     .today-part-3 input {
         width: 100%;
         font-size: 1rem;
+        margin-top: 5%;
+    }
+
+    .today-part-3 hr {
+        border: 1.5px solid rgb(179, 179, 179);
+        margin: 3% 5% 3%;
     }
 
     /* Plan Section Styles */
     
     .plan {
-        margin: 2% 2%;
+        margin: 1% 2% 10%;
     }
 
     .plan-upper {
@@ -102,7 +108,7 @@
     /* Compaign Section */
 
     .compaign {
-        margin: 2% 2%;
+        margin: 1% 2% 10%;
     }
 
     .compaign-part {
@@ -134,7 +140,7 @@
     /* Update Section */
 
     .update {
-        margin: 2% 2%;
+        margin: 1% 2% 10%;
     }
 
     .update-upper {
