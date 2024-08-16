@@ -26,6 +26,18 @@ body {
     font-size: 1.25rem;
     font-weight: 600;
 }
+
+.title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1%;
+}
+
+.subtitle {
+    font-family: Poppins;
+    font-size: 1.125rem;
+}
+
 /* Header Styles */
 
 .banner-container {
@@ -83,17 +95,6 @@ body {
     margin: 0 10% 5%;
 }
 
-.today-title {
-    font-size: 3rem;
-    font-weight: 700;
-    margin-bottom: 2%;
-}
-
-.today-subtitle {
-    font-family: Poppins;
-    font-size: 1.125rem;
-}
-
 .today-part-2 {
     border: 2px solid green;
     display: grid;
@@ -105,7 +106,7 @@ body {
 
 .today-card {
     border: 2px solid saddlebrown;
-    border-radius: 10%;
+    border-radius: 5%;
     background: rgb(250, 250, 250, 0.9);
     padding: 3% 2%;
     color: rgb(112, 112, 112);
@@ -113,7 +114,7 @@ body {
     font-weight: 700;
 }
 
-.card-2 {
+.today-card-2 {
     color: rgb(255, 89, 89);
     border: 3px solid rgb(255, 89, 89);
 }
@@ -129,6 +130,7 @@ body {
     font-family: Poppins;
     font-size: 1.125rem;
     margin: 1% 0;
+    text-align: center;
     border: 2px solid green;
 }
 
@@ -139,4 +141,62 @@ body {
 
 .btn-today {
     padding: 1.5% 2.5%;
+}
+
+/* Plan Section */
+
+.plan {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    margin: 3% 10%;
+}
+
+.plan-upper {
+    border: 2px solid blue;
+    text-align: center;
+    margin: 0 10% 5%;
+}
+
+
+.plan-lower {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+    border: 2px solid red;
+}
+
+.plan-card {
+    border: 2px solid green;
+    padding: 10% 5%;
+    border-radius: 3%;
+}
+
+.plan-card-1 {
+    background: rgba(79, 157, 166, 0.1);
+}
+
+.plan-card-2 {
+    background: rgba(255, 89, 89, 0.1);
+}
+
+.plan-card-3 {
+    background: rgb(255,244,214,0.7);
+}
+
+.plan-card-title {
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2%;
+}
+
+.plan-card-subtitle {
+    color: rgb(112, 112, 112);
+    font-family: Poppins;
+    font-size: 1rem;
+}
+
+.plan-card img {
+    margin-bottom: 2%;
 }
