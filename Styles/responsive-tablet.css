@@ -32,13 +32,11 @@
     .banner-subtitle {
         width: 85%;
         font-size: 1.125rem;
-        border: 2px solid red;
         margin-bottom: 4%;
     }
 
     .banner-right {
         width: 50%;
-        border: 2px solid green;
         text-align: center;
         margin-right: 7%;
     }
